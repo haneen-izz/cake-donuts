@@ -1,13 +1,18 @@
  *{
  margin: 0px;
-
+ scroll-behavior: smooth;
  }
-
 nav{
 background-color:rgb(31,26,26) ;
 width:100%;
 height:60px;
 margin-bottom: 30px;
+position: fixed;
+overflow: hidden;
+top: 0;
+z-index: 1;
+box-shadow: 0px 3px 1.7em purple;
+
  }
 
  nav div{
@@ -42,7 +47,7 @@ color:purple;
 }
 
 footer{
-    margin-top: 700px;
+    margin-top: 950px;
     background-color:rgb(31,26,26) ;
     width: 100%;
     height: 250px;
@@ -134,10 +139,8 @@ width:100%;
 height:550px;
 overflow: hidden;
 position: absolute;
-bottom: 112px;
-
-    box-shadow: 0px -5px 1.7em purple;
-
+bottom: 129px;
+box-shadow: 0px -5px 1.7em purple;
 }
 .navigation{
 position: absolute;
@@ -149,7 +152,7 @@ display:flex;
 .bar{
 width:20px;
 height:20px;
-border:1px solid black;
+border:1.8px solid black;
 border-radius: 50%;;
 margin:6px;
 cursor:pointer;
@@ -195,7 +198,7 @@ margin-left: 0;
 
  #fContent{
      position: absolute;
-     top: 630px;
+     top: 650px;
     left: 50%;
     transform: translatex(-50%);
     color: black;
@@ -216,27 +219,77 @@ margin-left: 0;
  .cards img{
 width: 320px;
 height: 250px;
-padding: 10px;
+/* padding: 10px; */
+padding-bottom: 10px;
+
  }
 
  .cards{
     text-align: center;
-     width: 350px;
+     width: 320px;
      height: 480px;
-     margin-top: 0px;
+     margin-top: 80px;
      margin-bottom: 30px;
-     background-color: red;
+     background-color: white;
+     overflow: hidden;
+     box-shadow: 0px 5px 1.7em grey;
  }
+ .cards div:nth-of-type(1){
+    overflow: hidden;
+    height:260px;
+ }
+ .cards div img:hover{
+ height: 270px;
+ width:350px;
+ margin-left: -10px;
+ }
+.cards div:nth-of-type(2){
+padding: 10px;
+}
 
+aside img{
+width:600px;
+border: 7px solid grey;
+border-radius: 12px;
 
+}
+aside img:hover {
+    opacity: 0.9;
 
+}
+#last{
+position: relative;
+top:880px;
+display: flex;
+padding: 0px 0px;
+}
+article p{
+padding:40px 80px 40px 0px;
+font-size: larger;
+}
+aside{
+padding:0px 80px;
+}
+#button{
+background-color: rgb(31,26,26);
+color: white;
+text-align: center;
+width: 220px;
+height:44px;
+border-radius: 20px;
+position: absolute;
+left: 72%;
+transform:translateX(-50%);
+cursor: pointer;
+font-size: 1.1rem;
 
+}
+#button:hover{
+/* background-color:rgb(85, 81, 81); */
+font-size: 1.2rem;
+box-shadow: 0px 5px 1.7em purple;
 
-
-
-
-
-
+}
 
 
 
