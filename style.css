@@ -47,6 +47,9 @@ footer{
     width: 100%;
     height: 250px;
     
+    position: relative;
+    bottom: 0px;
+    
 
 
 }
@@ -102,18 +105,21 @@ margin-top: 10px;
         border-bottom: 3px white solid;
     }
 
-    article{
+    footer article{
+        position: absolute;
+        top: 210px;
         width: 100%;
-        height: 30px;
+        height: 25px;
         background-color: rgb(85, 81, 81);
-        display:flex;
-        justify-content: space-around;
+        /* display:flex;
+        justify-content: space-around; */
         color: white;
-        padding-top: 20px;
+        line-height: 25px;
+        padding: 8px 0px;
         
     }
 
-    article div{
+    footer article div{
         margin-right: 52px;
     }
 .mainDiv .secondDiv .slide img{
@@ -198,31 +204,43 @@ margin-left: 0;
     margin: 10px 8px;
      
  }           
- #mainCard{
-width: 100%;
-height:1000px;
-
-
-
-
+.homeCard{
+    /* background-color: red; */
+    width: 100%;
+    height: 540px;
+    position: relative;
+    top: 700px;
+    display: flex;
+    justify-content: space-around;
 }
- #secCard{
-/* display: flex;
-justify-content: space-around; */
-/* display: inline; */
-position:absolute;
-bottom:0px;
+ .cards img{
+width: 320px;
+height: 250px;
+padding: 10px;
  }
-.homeCards{
-/* background-color: black; */
-/* width:30%; */
-height:200px;
-display: flex;
-justify-content: center;
-/* position: absolute;
-top:700px; */
-}
-.homeCards img{
-width:200px;
-height:100px;
-}
+
+ .cards{
+    text-align: center;
+     width: 350px;
+     height: 480px;
+     margin-top: 0px;
+     margin-bottom: 30px;
+     background-color: red;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
