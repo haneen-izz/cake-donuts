@@ -159,7 +159,7 @@ cursor:pointer;
 transition: 0.4s;
 }
 .bar:hover{
-background-color:grey;
+    background-color:rgb(85, 81, 81);
 }
 input[name="r"]{
 position: absolute;
@@ -242,6 +242,7 @@ padding-bottom: 10px;
  height: 270px;
  width:350px;
  margin-left: -10px;
+ opacity: 0.8;
  }
 .cards div:nth-of-type(2){
 padding: 10px;
