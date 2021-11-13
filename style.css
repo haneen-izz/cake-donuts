@@ -2,6 +2,14 @@
  margin: 0px;
  scroll-behavior: smooth;
  }
+
+ body{
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
 nav{
 background-color:rgb(31,26,26) ;
 width:100%;
@@ -206,7 +214,8 @@ margin-left: 0;
     padding: 5px;
     margin: 10px 8px;
      
- }           
+ }    
+
 .homeCard{
     /* background-color: red; */
     width: 100%;
@@ -216,12 +225,12 @@ margin-left: 0;
     display: flex;
     justify-content: space-around;
 }
+
  .cards img{
 width: 320px;
 height: 250px;
 /* padding: 10px; */
 padding-bottom: 10px;
-
  }
 
  .cards{
@@ -234,16 +243,19 @@ padding-bottom: 10px;
      overflow: hidden;
      box-shadow: 0px 5px 1.7em grey;
  }
+
  .cards div:nth-of-type(1){
     overflow: hidden;
     height:260px;
  }
+
  .cards div img:hover{
  height: 270px;
  width:350px;
  margin-left: -10px;
  opacity: 0.8;
  }
+
 .cards div:nth-of-type(2){
 padding: 10px;
 }
@@ -254,10 +266,12 @@ border: 7px solid grey;
 border-radius: 12px;
 
 }
+
 aside img:hover {
     opacity: 0.9;
 
 }
+
 #last{
 position: relative;
 top:880px;
@@ -268,9 +282,11 @@ article p{
 padding:40px 80px 40px 0px;
 font-size: larger;
 }
+
 aside{
 padding:0px 80px;
 }
+
 #button{
 background-color: rgb(31,26,26);
 color: white;
